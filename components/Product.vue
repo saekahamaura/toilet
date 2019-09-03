@@ -285,4 +285,47 @@ li {
     padding: 7px 12px;
   }
 }
+@media screen and (max-width:980px) {
+  ul {
+    width: 90%;
+    margin: 0 auto 100px;
+  }
+  .st-child {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .st-first {
+    section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    img {
+      height: 33px;
+      margin-bottom: 20px;
+      }
+    }
+  }
+  .st-left {
+    width: 100%;
+  }
+  .st-right {
+    width: 100%;
+    order: -1;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+@media screen and (max-width:680px) {
+  .st-child {
+    width: 100%;
+  }
+}
 </style>

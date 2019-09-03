@@ -5,7 +5,7 @@
       安心の<em class="text-pink">２大保証</em>
     </h1>
     <p class="st-sales orange">
-      工事後の不具合商品の不具合対応保証します
+      工事後の不具合商品の不具合<br>対応保証します
     </p>
     <ul class="st-point">
       <li>
@@ -105,10 +105,64 @@ ul {
     bottom: -16px;
     margin: 0 auto;
   }
+  br {
+    display: none;
+  }
 }
 .st-text {
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
+}
+@media screen and (max-width:680px) {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    section {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    h1 {
+      font-size: 22px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+  }
+  .st-sales {
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 100px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 16px 13px 0 13px;
+      border-color: #FF8B60 transparent transparent transparent;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -16px;
+      margin: 0 auto;
+    }
+    br {
+      display: block;
+    }
+  }
 }
 </style>

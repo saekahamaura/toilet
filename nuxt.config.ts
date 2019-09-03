@@ -9,7 +9,7 @@ const nuxtConfig: Configuration = {
     title: '高品質を低価格トイレリフォームなら｜トイレリフォームドットコム',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'target-densitydpi=device-dpi, width=1200px, maximum-scale=1.0, user-scalable=yes' },
+      {  name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'theme-color', content: '#00CED0' },
       { hid: 'description', name: 'description', content: 'トイレリフォーム専門。独自のルートで高品質のトイレを低価格でご提供。商品と工事に対しての2大保証で工事後も安心。金額は工事費・処分費・税込み！トイレリフォームを検討してる方は一度はご覧ください。' }
     ],
