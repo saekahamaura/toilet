@@ -28,4 +28,15 @@ h1 {
 i {
   font-size: 14px;
 }
+@media screen and (max-width:680px) {
+  footer {
+    padding: 20px 0;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  i {
+    font-size: 10px;
+  }
+}
 </style>

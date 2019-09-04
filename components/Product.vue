@@ -286,15 +286,19 @@ li {
   }
 }
 @media screen and (max-width:980px) {
+  .st-product {
+  padding: 40px 0;
+}
   ul {
     width: 90%;
-    margin: 0 auto 100px;
+    margin: 0 auto 40px;
   }
   .st-child {
     width: 80%;
     margin: 10px auto;
   }
   .st-first {
+      margin-bottom: 10px;
     section {
       display: flex;
       justify-content: space-between;
@@ -326,6 +330,9 @@ li {
 @media screen and (max-width:680px) {
   .st-child {
     width: 100%;
+  }
+  .st-first dd strong {
+    font-size: 54px;
   }
 }
 </style>

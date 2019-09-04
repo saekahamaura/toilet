@@ -257,4 +257,54 @@ button {
   margin-left: auto;
   display: block;
 }
+@media screen and (max-width:980px) {
+  .st-form_container {
+    width: 90%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width:680px) {
+  section {
+    padding: 40px 0;
+  }
+  .st-form_container {
+    border: solid 0px #fff;
+    padding: 0;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  dl {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 30px;
+  }
+  dt {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  dd {
+    width: 100%;
+    position: relative;
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+    }
+  }
+  .st-tel {
+    width: 100%;
+  }
+  button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
 </style>
