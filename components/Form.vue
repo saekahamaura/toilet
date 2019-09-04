@@ -265,19 +265,20 @@ button {
 }
 @media screen and (max-width:680px) {
   section {
-    padding: 40px 0;
+    padding: 10.6666vw 0;
   }
   .st-form_container {
     border: solid 0px #fff;
     padding: 0;
   }
   h1 {
-    font-size: 20px;
+    font-size: 5.3333vw;
+    margin-bottom: 10.6666vw;
   }
   dl {
     display: flex;
     flex-flow: column;
-    margin-bottom: 30px;
+    margin-bottom: 8vw;
   }
   dt {
     width: 100%;
@@ -287,7 +288,7 @@ button {
   label{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 3.8vw;
   }
   dd {
     width: 100%;
@@ -302,9 +303,12 @@ button {
     width: 100%;
   }
   button {
-    width: 150px;
-    height: 40px;
-    font-size: 16px;
+    width: 40vw;
+    height: 10.6666vw;
+    font-size: 4.26666vw;
+  }
+  .st-valid {
+    font-size: 4.8vw;
   }
 }
 </style>

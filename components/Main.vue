@@ -64,26 +64,29 @@ p {
   }
 }
 @media screen and (max-width:680px) {
+  .st-inner {
+    padding: 10.6666vw 0 5.3333vw;
+  }
   h1 {
-    margin-bottom: 30px;
+    margin-bottom: 8vw;
     line-height: 1.3;
   }
   span {
-    font-size: 16px;
+    font-size: 4.2666vw;
     font-weight: normal;
   }
   em {
-    font-size: 20px;
+    font-size: 5.3333vw;
   }
   strong {
-    font-size: 32px;
+    font-size: 8.53333vw;
     span {
-      font-size: 32px;
+      font-size: 8.53333vw;
       font-weight: bold;
     }
   }
   p {
-    font-size: 10px;
+    font-size: 3.2vw;
   }
 }
 </style>

@@ -134,7 +134,7 @@ $body .= "--" . $boundary . "--";
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="theme-color" content="#00CED0">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>内容確認｜トイレリフォームドットコム</title>
 <link rel="stylesheet" href="../css/confirm.min.css">
 </head>

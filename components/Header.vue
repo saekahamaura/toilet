@@ -68,12 +68,12 @@ i {
 }
 @media screen and (max-width:680px) {
   header {
-    padding: 12px 0;
+    padding: 3.2vwpx 0;
   }
   h1 {
-    font-size: 20px;
+    font-size: 5.3333vw;
     span {
-      font-size: 10px;
+      font-size: 2.6666vw;
     }
   }
   i {
@@ -83,8 +83,8 @@ i {
     display: none;
   }
   .st-button {
-    width: 40px;
-    height: 40px;
+    width: 10.6666vw;
+    height: 10.6666vw;
   }
 }
 </style>

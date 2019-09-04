@@ -30,13 +30,13 @@ i {
 }
 @media screen and (max-width:680px) {
   footer {
-    padding: 20px 0;
+    padding: 5.3333vw 0;
   }
   h1 {
-    font-size: 20px;
+    font-size: 5.3333vw;
   }
   i {
-    font-size: 10px;
+    font-size: 2.6666vw;
   }
 }
 </style>

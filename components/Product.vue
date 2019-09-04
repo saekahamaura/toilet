@@ -328,11 +328,59 @@ li {
   }
 }
 @media screen and (max-width:680px) {
+  .st-product {
+    padding: 10.6666vw 0;
+  }
+  ul {
+    margin: 0 auto 10.6666vw;
+  }
   .st-child {
     width: 100%;
+    margin: 2.6666vw auto;
+    figure {
+      padding: 5.3333vw 2.6666vw 5.3333vw 0;
+      img {
+        height: 48vw;
+      }
+    }
   }
-  .st-first dd strong {
-    font-size: 54px;
+  .st-first {
+    margin-bottom: 2.6666vw;
+    h1 {
+      font-size: 5.86666vw;
+      padding-bottom: 2.6666vw;
+      img {
+        height: 8.8vw;
+        margin-bottom: 5.3333vw;
+      }
+    }
+    dl {
+      margin-top: 8.8vw;
+    }
+    dt,
+    dd {
+      font-size: 4.26666vw;
+    }
+    dd strong {
+      font-size: 14.4vw;
+    }
+  }
+  .st-left {
+    padding: 8vw;
+  }
+  .st-top {
+    font-size: 3.8vw;
+    em {
+      padding: 0 2.6666vw;
+    }
+    span {
+      padding: 1.86666vw 3.2vw;
+    }
+  }
+  .st-price {
+    font-size: 3.8vw;
+    padding: 0 4vw;
+    margin-bottom: 5.3333vw;
   }
 }
 </style>

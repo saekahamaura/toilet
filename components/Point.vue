@@ -116,17 +116,17 @@ ul {
 }
 @media screen and (max-width:680px) {
   .st-wrapper {
-    padding: 40px 0;
+    padding: 10.6666vw 0;
   }
   .st-title {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 4.8vw;
+    margin-bottom: 8vw;
     span {
-      font-size: 14px;
+      font-size: 3.8vw;
       margin-bottom: 0;
     }
     em {
-      font-size: 32px;
+      font-size: 8.8vw;
     }
   }
   ul {
@@ -134,22 +134,23 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     h1 {
-      font-size: 22px;
+      font-size: 5.86666vw;
     }
   }
   .st-sales {
-    font-size: 16px;
+    font-size: 3.8vw;
     width: 90%;
-    margin: 0 auto 60px;
+    margin: 0 auto 16vw;
+    padding: 5.3333vw 0;
     br {
       display: block;
     }
   }
   .st-text {
     text-align: justify;
-    font-size: 16px;
+    font-size: 4.2666vw;
     width: 90%;
-    margin: 40px auto 0;
+    margin: 10.6666vw auto 0;
   }
 }
 </style>
