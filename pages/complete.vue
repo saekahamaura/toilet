@@ -4,7 +4,7 @@
     <main>
       <section class="st-complete">
         <h1>お問い合わせ完了</h1>
-        <p>お問い合わせを受付ました。<br>内容を確認して弊社担当からご連絡差し上げますので<br>今しばらくお待ちください。</p>
+        <p>お問い合わせを受付ました。<br>内容を確認して弊社担当からご連絡差し上げますので<br class="pc">今しばらくお待ちください。</p>
         <a
           href="./"
           class="st-button pink"
@@ -62,5 +62,28 @@ p {
   justify-content: center;
   border-radius: 5px;
   margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  .st-complete {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .st-complete {
+    padding: 32vw 0;
+  }
+  h1 {
+    margin-bottom: 16vw;
+  }
+  p {
+    margin-bottom: 10.6666vw;
+  }
+  .pc {
+    display: none;
+  }
+  .st-button {
+    width: 42.6666vw;
+    height: 10.6666vw;
+  }
 }
 </style>
