@@ -12,19 +12,19 @@ if ($_FILES['images']){
 }
 if ($_POST['お名前']) {
   $name = trim(htmlspecialchars($_POST['お名前'], ENT_QUOTES, 'UTF-8'));
-  $name_text = "【お名前】{$name}";
+  $name_text = "【お名前】{$name}\n";
 }
 if ($_POST['住所']) {
   $address = trim(htmlspecialchars($_POST['住所'], ENT_QUOTES, 'UTF-8'));
-  $address_text = "【住所】{$address}";
+  $address_text = "【住所】{$address}\n";
 }
 if ($_POST['住所2']) {
   $address2 = trim(htmlspecialchars($_POST['住所2'], ENT_QUOTES, 'UTF-8'));
-  $address2_text = "【住所2】{$address2}";
+  $address2_text = "【住所2】{$address2}\n";
 }
 if ($_POST['メールアドレス']) {
   $email = trim(htmlspecialchars($_POST['メールアドレス'], ENT_QUOTES, 'UTF-8'));
-  $email_text = "【メールアドレス】{$email}";
+  $email_text = "【メールアドレス】{$email}\n";
 }
 if ($_POST['電話番号']) {
   $tel = trim(htmlspecialchars($_POST['電話番号'], ENT_QUOTES, 'UTF-8'));
@@ -47,11 +47,7 @@ $body .= "トイレリフォームドットコムからのお問い合わせ
 
 お問い合わせ内容
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-{$name_text}
-{$address_text}
-{$address2_text}
-{$email_text}
-{$tel_text}
+{$name_text}{$address_text}{$address2_text}{$email_text}{$tel_text}
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 このメールに心当たりの無い場合は、お手数ですが
@@ -94,11 +90,7 @@ $body .= "{$name}様
 内容を確認いたしまして、
 担当からご連絡させていただきます。
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-{$name_text}
-{$address_text}
-{$address2_text}
-{$email_text}
-{$tel_text}
+{$name_text}{$address_text}{$address2_text}{$email_text}{$tel_text}
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 このメールに心当たりの無い場合は、お手数ですが
