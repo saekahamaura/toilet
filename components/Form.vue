@@ -81,7 +81,7 @@
           </dd>
         </dl>
         <dl>
-          <dt><label for="photo">現在のトイレの写真<span class="st-required pink" aria-label="必須">必須</span></label></dt>
+          <dt><label for="photo">現在のトイレ写真<span class="st-required pink" aria-label="必須">必須</span></label></dt>
           <dd>
             <input
               id="photo"
@@ -91,6 +91,7 @@
               aria-required="true"
               @change="selectedFile"
             >
+            <p class="st-attention">※5MB以下</p>
             <span>ファイルを選択してください</span>
           </dd>
         </dl>
@@ -202,7 +203,7 @@ dl {
   margin-bottom: 30px;
 }
 dt {
-  width: 200px;
+  width: 220px;
   margin-right: 20px;
 }
 label{
@@ -231,7 +232,7 @@ dd {
   input[type="text"],
   input[type="email"],
   input[type="tel"] {
-    width: 400px;
+    width: 100%;
     height: 40px;
     padding: 0 10px;
     border: none;
@@ -256,6 +257,9 @@ button {
   font-size: 20px;
   margin-left: auto;
   display: block;
+}
+.st-attention {
+  font-size: 14px;
 }
 @media screen and (max-width:980px) {
   .st-form_container {
@@ -309,6 +313,9 @@ button {
   }
   .st-valid {
     font-size: 4.8vw;
+  }
+  .st-attention {
+    font-size: 3.8vw;
   }
 }
 </style>
