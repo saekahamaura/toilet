@@ -163,3 +163,48 @@ footer i {
   justify-content: center;
   margin-top: 60px;
 }
+
+@media screen and (max-width: 1100px) {
+  .st-inner {
+    width: 90%;
+  }
+  .st-confirm {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header h1 {
+    font-size: 5.3333vw;
+  }
+  header h1 span {
+    font-size: 3.2vw;
+  }
+  .st-confirm {
+    margin: 16vw auto;
+  }
+  .st-confirm h2 {
+    margin-bottom: 16vw;
+    font-size: 8.8vw;
+  }
+  .st-confirm dl {
+    margin-bottom: 5.3333vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .st-confirm dt {
+    width: 100%;
+    margin-right: 0;
+  }
+  .st-confirm__button {
+    margin-top: 12vw;
+    justify-content: space-between;
+  }
+  .st-back,
+  .st-button {
+    width: 48%;
+    height: 12.8vw;
+    font-size: 5.3333vw;
+    margin-right: 0;
+  }
+}

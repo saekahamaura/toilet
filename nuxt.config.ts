@@ -28,7 +28,7 @@ const nuxtConfig: Configuration = {
   css: [
   ],
   router: {
-    // base: '/cliant_check/toilet/',
+    // base: '/toilet/',
   },
   typescript: {
     typeCheck: true,

@@ -159,12 +159,6 @@ $body .= "--" . $boundary . "--";
           <?php if ($_POST['メールアドレス']): ?><input type="hidden" name="メールアドレス" value="<?php if ($_POST['メールアドレス']) echo $email?>"><?php endif;?>
           <?php if ($_FILES['images']): ?><input type="hidden" name="filepass" value="<?php if ($_FILES['images']) echo $filename?>"><?php endif;?>
           <div class="st-content">
-              <?php if ($_POST['jobtype']): ?>
-                <dl>
-                  <dt>Job type</dt>
-                  <dd><?php echo $jobtype?></dd>
-                </dl>
-              <?php endif;?>
               <?php if ($_POST['お名前']): ?>
                 <dl>
                   <dt>お名前</dt>
